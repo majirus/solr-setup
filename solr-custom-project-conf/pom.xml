@@ -41,6 +41,15 @@
                   <overWrite>true</overWrite>
                   <outputDirectory>${project.build.outputDirectory}/lib</outputDirectory>
                 </artifactItem>
+                 <!-- Copy solr data import library -->
+                <artifactItem>
+                  <groupId>org.apache.solr</groupId>
+                  <artifactId>solr-dataimporthandler</artifactId>
+                  <version>${solr.version}</version>
+                  <type>jar</type>
+                  <overWrite>true</overWrite>
+                  <outputDirectory>${project.build.outputDirectory}/lib</outputDirectory>
+                </artifactItem>              
               </artifactItems>
               <overWriteReleases>false</overWriteReleases>
               <overWriteSnapshots>true</overWriteSnapshots>
