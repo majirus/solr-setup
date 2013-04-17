@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<solr sharedLib="lib" persistent="true">
+  <cores adminPath="/admin/cores" shareSchema="true" defaultCoreName="core_0">
+    <core name="core_0" instanceDir="core_0/" properties="core_0.properties"/>   
+  </cores>
+</solr>
