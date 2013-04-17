@@ -1,0 +1,4 @@
+#use curl to send files one after the other
+curl http://localhost:8081/solr/update --data-binary @hd.xml -H 'Content-type:application/xml'
+#commit after docs are added
+curl http://localhost:8081/solr/update?commit=true
